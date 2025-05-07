@@ -26,24 +26,6 @@ nav a:hover {
     color: #ddd;
 }
 
-/* Style des sections */
-section {
-    padding: 4rem 2rem;
-    margin: 2rem 0;
-    background-color: #f5f5f5;
-    border-radius: 8px;
-}
-
-section h2 {
-    color: #333;
-    margin-bottom: 1rem;
-}
-
-section p {
-    line-height: 1.6;
-    color: #666;
-}
-
 /* Style du footer */
 footer {
     background-color: #333;
@@ -58,4 +40,37 @@ footer {
 footer p {
     margin: 0;
     font-size: 0.9rem;
+}
+#section1 {
+    background-color: #e8f4f8;
+    border-left: 4px solid #2196F3;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+#section1 h2 {
+    color: #2196F3;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+#section1 p {
+    color: #455a64;
+    font-size: 1.1rem;
+}
+
+#section2 {
+    background-color: #f8f1e8;
+    border-right: 4px solid #ff9800;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+#section2 h2 {
+    color: #ff9800;
+    font-size: 2rem;
+    font-style: italic;
+}
+
+#section2 p {
+    color: #5d4037;
+    font-size: 1.1rem;
 }
